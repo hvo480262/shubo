@@ -1,0 +1,242 @@
+[
+  {
+    "path": "matlab/code/gt_build_tcn.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_build_tcn.m",
+    "sha256": "32c96186569efebf8870d24ec0f3ab2d913285eeed3722fa2716ec18d2f4fe06"
+  },
+  {
+    "path": "matlab/code/gt_calibrate.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_calibrate.m",
+    "sha256": "650689d45f36b44834091079211b1822efc4e42bf82a024217a48db49ff3f54e"
+  },
+  {
+    "path": "matlab/code/gt_class_summary.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_class_summary.m",
+    "sha256": "8947a5e8d45cad4b5ad4fba8c52124c6ffd34c9fb72c322a40c4ed70a6be9971"
+  },
+  {
+    "path": "matlab/code/gt_classes.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_classes.m",
+    "sha256": "2faca01e0884653bfe5b05ca60346d8f1d0e06bada2f0c6c6c5dd8252093e5c2"
+  },
+  {
+    "path": "matlab/code/gt_config.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_config.m",
+    "sha256": "b5c64436a35568149d1a6ad26a0cd3ab095ad84e5e3893fea18112bf293d5200"
+  },
+  {
+    "path": "matlab/code/gt_confusion.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_confusion.m",
+    "sha256": "fb4a4a71e7073666ab774471d8134af843fdb5d61749377a323a267a7585d301"
+  },
+  {
+    "path": "matlab/code/gt_cycle_time.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_cycle_time.m",
+    "sha256": "438e94d8795aab58206f26141316dc4664d603a5e69adfd57a8b77c047247f99"
+  },
+  {
+    "path": "matlab/code/gt_electrical_angle.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_electrical_angle.m",
+    "sha256": "649b9b907af7c0bf81cbba2a5213eaac36c6d1a91848c94e33f2e31bf5ffa750"
+  },
+  {
+    "path": "matlab/code/gt_fast_lock_1ms.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_fast_lock_1ms.m",
+    "sha256": "4415fadf244b2e61a73566174d4b919c06119aa6e556700367eede2ebf59d65e"
+  },
+  {
+    "path": "matlab/code/gt_features.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_features.m",
+    "sha256": "ea28c088aa24251ecb4ec6afed314405abfc4973d08045ab048bd168cb000da8"
+  },
+  {
+    "path": "matlab/code/gt_gate.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_gate.m",
+    "sha256": "909711a19d4f6c91b46cd384765a64992aa479b70b9c3a5317b0c2e5207bc166"
+  },
+  {
+    "path": "matlab/code/gt_list_raw_paths.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_list_raw_paths.m",
+    "sha256": "2317596d6ae69e5974195be49a3c28ceea23923472e21fced1d76f62a30e2b7b"
+  },
+  {
+    "path": "matlab/code/gt_predict_sequences.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_predict_sequences.m",
+    "sha256": "84c33d85e31a62d17f6f5879c1f9afa882b77b9fd1e8a8847c6a1b3414966a7c"
+  },
+  {
+    "path": "matlab/code/gt_prediction_plot.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_prediction_plot.m",
+    "sha256": "bd14243678267a7ee93cdefaad65b7af8b49ccd68db844077dd833d70ac7a246"
+  },
+  {
+    "path": "matlab/code/gt_prepare.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_prepare.m",
+    "sha256": "d1545d6d9517f90469d3de5119e861ef29171611bc8efa23889bfea774b6214d"
+  },
+  {
+    "path": "matlab/code/gt_random_roles.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_random_roles.m",
+    "sha256": "882e65f71e5a2b979984386d7cca5e9e70117c0e7737ad6217597e5d621e92a5"
+  },
+  {
+    "path": "matlab/code/gt_read.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_read.m",
+    "sha256": "b488b6c745c85a128e957ea95f98941fc6b7aa681bea2c15993af868ae39dc17"
+  },
+  {
+    "path": "matlab/code/gt_record_features.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_record_features.m",
+    "sha256": "4602a8ba0e1556507daa64fded8a7ec93310fbc1b31d1ebf7b1815ce1ba63861"
+  },
+  {
+    "path": "matlab/code/gt_relative_cycles.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_relative_cycles.m",
+    "sha256": "ef9f4cfbb118ef7733fd40dddfba01eeb55c988cc53f5ab1a05587edd3a59541"
+  },
+  {
+    "path": "matlab/code/gt_replay.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_replay.m",
+    "sha256": "7e715498e389dc045a51c0cb32e56aa8e39818f7bd8747c38178d224c3223ec8"
+  },
+  {
+    "path": "matlab/code/gt_run.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_run.m",
+    "sha256": "edcafb179fbaec553d2cca83572dc855bca64d91659d659e2d9bbbb934ab42bf"
+  },
+  {
+    "path": "matlab/code/gt_sample_windows.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_sample_windows.m",
+    "sha256": "553dabeb4016932024becc92b7ff20c6c8643d9d13f3bdb171e3866e4a468a42"
+  },
+  {
+    "path": "matlab/code/gt_save_raw.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_save_raw.m",
+    "sha256": "9e3d0729b2b73a796b742b595b8c183e900f88af88250a7385e3fe74a4e4e431"
+  },
+  {
+    "path": "matlab/code/gt_score.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_score.m",
+    "sha256": "2e3c8bf9676dd5bcf09659b8bb6799709c60e57042d38cd9163db8b96e083980"
+  },
+  {
+    "path": "matlab/code/gt_select_data.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_select_data.m",
+    "sha256": "8a988ed96de09f889f5322c914ee8216c3f5da726eec0af677d6dcd045b05efd"
+  },
+  {
+    "path": "matlab/code/gt_selection_plan.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_selection_plan.m",
+    "sha256": "9cd386304cc94304270e9421d3227c853aa762c986883f21b659db0d89b3def9"
+  },
+  {
+    "path": "matlab/code/gt_selftest.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_selftest.m",
+    "sha256": "1f7d5c940246f377ab4a9bc2a790f6915426531268d31df3305687cdf4d5cb5e"
+  },
+  {
+    "path": "matlab/code/gt_selftest_v5.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_selftest_v5.m",
+    "sha256": "b4245d396c1702e2f47bda3b7616016a89abd560de1774bd62e5ace75f5f5216"
+  },
+  {
+    "path": "matlab/code/gt_sequences.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_sequences.m",
+    "sha256": "6b39630ee557ea0571a95fe2fc67b08e5d90c6d6da3f0e2968af563f5f8ba91b"
+  },
+  {
+    "path": "matlab/code/gt_split_coverage.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\gt_split_coverage.m",
+    "sha256": "38b528c0cf97ec8f81753ff85c565debc12a63bc099a78f301fd8a0a6a959d60"
+  },
+  {
+    "path": "matlab/code/pmsm_angle_features.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\pmsm_angle_features.m",
+    "sha256": "a69c2cc7318332a4a3e7dc01397a5c5ccb8defb4b1f627960a807a1438c61b93"
+  },
+  {
+    "path": "matlab/code/pmsm_strict_split.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\code\\pmsm_strict_split.m",
+    "sha256": "d45af42392026d4d28eb11d0b92191f7e53aa229c546af046f8732847b3fd0ed"
+  },
+  {
+    "path": "matlab/RUN_AMPLITUDE_HALFWAVE_PAIR.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\RUN_AMPLITUDE_HALFWAVE_PAIR.m",
+    "sha256": "6e94e849f6d7292b1e129a5a24c9243dcdd568b7369757e35b29ab2f6d3331c7"
+  },
+  {
+    "path": "matlab/RUN_VALIDATE_LOCK_THRESHOLD_PAIR.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\RUN_VALIDATE_LOCK_THRESHOLD_PAIR.m",
+    "sha256": "ef98770b2336289a9d24e751c1100dd4e7a206c4cad189b055c69c50b70c6ed0"
+  },
+  {
+    "path": "matlab/RUN_FASTLOCK_REPLAY.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\RUN_FASTLOCK_REPLAY.m",
+    "sha256": "91c4d77065a99eb373cefcc9887e2e85126d140c0aa835fac7aef73970c473c0"
+  },
+  {
+    "path": "matlab/RUN_FASTLOCK_BATCH.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\RUN_FASTLOCK_BATCH.m",
+    "sha256": "6e95527d8e5d42c4af4a9ef674230e2fdb05f563ee2b297d0ccff9fbf3ef3a87"
+  },
+  {
+    "path": "matlab/RUN_HALFWAVE_COMPARE.m",
+    "source": "PMSM_Halfwave_FastLock_20261023\\RUN_HALFWAVE_COMPARE.m",
+    "sha256": "20937ac956b2f92a14f364569753866d1f5975e4f07e22e5d3f5416b6d9410d8"
+  },
+  {
+    "path": "matlab/sensor_prototype/sg_sensor_features.m",
+    "source": "PMSM_FastSingle_Gain\\PMSM_FastSingle_Gain\\upgrade\\sg_sensor_features.m",
+    "sha256": "5e61725fa01d3b1682932373118ebf46cedbdb3564a547f57b4bf0384e624595"
+  },
+  {
+    "path": "matlab/sensor_prototype/sg_sensor_decision.m",
+    "source": "PMSM_FastSingle_Gain\\PMSM_FastSingle_Gain\\upgrade\\sg_sensor_decision.m",
+    "sha256": "fd8407b783c057dbe0fb840b98223a7398bedb8a93737da6d8db77bf6745e08d"
+  },
+  {
+    "path": "matlab/sensor_prototype/sg_config.m",
+    "source": "PMSM_FastSingle_Gain\\PMSM_FastSingle_Gain\\upgrade\\sg_config.m",
+    "sha256": "cec6d494c2a5c77e1e7050907c40d84e5d1f137c24487207ae21f4c6ea15c6d0"
+  },
+  {
+    "path": "models/PMSM.slx",
+    "source": "PMSM.slx",
+    "sha256": "a0fe4c77488201d7a7484bb59991e6a0148e730e87f28a75b0d55f23e47d5cfc"
+  },
+  {
+    "path": "evidence/open_circuit_records.csv",
+    "source": "PMSM_Halfwave_FastLock_20261023\\results\\20261026_161433_031\\VALIDATION_1MS_20261026_164038_265\\TEST_RECORDS_DEFAULT_VS_SELECTED.csv",
+    "sha256": "6beacf31279dce4568a8156ee5cbffee2d2b824defa81601633fc5f2a6351849"
+  },
+  {
+    "path": "evidence/open_circuit_summary.csv",
+    "source": "PMSM_Halfwave_FastLock_20261023\\results\\20261026_161433_031\\VALIDATION_1MS_20261026_164038_265\\TEST_SUMMARY.csv",
+    "sha256": "e509648e81a2e097a4ec4ed520ec29ed1dfde1401ddf5401816592fe4446b42e"
+  },
+  {
+    "path": "evidence/validation_threshold_grid.csv",
+    "source": "PMSM_Halfwave_FastLock_20261023\\results\\20261026_161433_031\\VALIDATION_1MS_20261026_164038_265\\VALIDATION_THRESHOLD_GRID.csv",
+    "sha256": "a7f26a2bf57513ef37eff61d09f3b92d8995e8c38ec42907924eb091b2afadc6"
+  },
+  {
+    "path": "evidence/cross_role_source_groups.csv",
+    "source": "PMSM_Halfwave_FastLock_20261023\\splits\\amp_pair_20261026_161432_975\\CROSS_ROLE_SOURCE_GROUPS.csv",
+    "sha256": "03d2a09fc798676659e6dcadb4e527c610cac3a6def6b18f5697daa9b03db19a"
+  },
+  {
+    "path": "evidence/sensor_gain_records.csv",
+    "source": "PMSM_FastSingle_Gain\\PMSM_FastSingle_Gain\\results\\fast_gain_20261019_151950_766\\GAIN_test_records.csv",
+    "sha256": "46c33f41581a4979dece39368b670c21b45631905531097bb3cc0420e01fe8f2"
+  },
+  {
+    "path": "evidence/sensor_gain_parents.csv",
+    "source": "PMSM_FastSingle_Gain\\PMSM_FastSingle_Gain\\results\\fast_gain_20261019_151950_766\\GAIN_parent_summary.csv",
+    "sha256": "8d0038150fcbd393486fde286a9a2d3cf6df3483cf8c3a2a3e81f2a306b4fa2d"
+  },
+  {
+    "path": "docs/research-summary.pdf",
+    "source": "Shubo_Zhang_PMSM_Research_Summary.pdf",
+    "sha256": "e86c48d104a3d7dcbb8056fc1fb18cfcb15506897859cad5b890ca1a1cf49c5a"
+  }
+]

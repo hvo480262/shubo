@@ -1,0 +1,5 @@
+Model,Role,Policy,Threshold,SingleTotal,SingleMet,DoubleTotal,DoubleMet,FaultWrong,NormalWrong,EarlyWrongBeforeQuarter,FaultPending
+Angle9,test,frozen_default,0.386643767356873,18,9,45,26,26,0,12,0
+Angle9,test,validation_selected,0.9,18,2,45,42,0,0,0,0
+AngleAmpHalf,test,frozen_default,0.0454545454545455,18,8,45,13,38,0,29,0
+AngleAmpHalf,test,validation_selected,0.925,18,0,45,24,1,0,0,0

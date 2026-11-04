@@ -1,0 +1,56 @@
+function c=gt_config(root)
+if nargin<1, root=fileparts(fileparts(mfilename('fullpath'))); end
+c.Root=root;
+c.DataFolder=fullfile(root,'data');
+c.RawFilePattern='*_raw.mat'; % 递归读取原始录波，跳过batch_report等结果文件
+c.OutputRoot=fullfile(root,'results');
+c.SplitFolder=fullfile(root,'splits','strict_v5');
+c.Plan="random_group"; % random_group / manual (跨工况留出用manual)
+c.RequiredClasses=gt_classes(); % 默认全部22类；设strings(0,1)可自动类别
+c.SplitSeed=2026;
+c.TestFraction=0.2; c.ValidationFraction=0.2;
+c.MinTrainGroups=2; c.MinValidationGroups=1; c.MinTestGroups=2; c.MinCalibrationGroups=1;
+c.UsePlannedRoles=true; % 完整采集计划优先；部分计划必须显式处理
+c.FeatureMode="angle"; % angle / nominal_time (原v4特征对照)
+c.AllowNominalSpeed=true; % 无实测角度/转速时停止；仅恒速旧数据可显式设true
+c.AngleSamplesPerCycle=100; % 对齐原v4约0.01电周期的更新间隔
+c.AngleOversample=4; % 先在密角度网格滤波，再降至100点/周期
+c.AngleMinimumRpm=400; % 预先给定速度下界，抗混叠滤波器不窥视未来速度
+c.AngleAntiAliasOrder=4;
+c.SampleWithReplacement=false;
+c.RunNetworkSelfTest=false;
+c.HopCycles=0.01; % fixed electrical-cycle spacing; [] restores HopSeconds
+c.TrainingFaultTime_s=0.5;
+c.TrainTorque_Nm=10; c.TestTorque_Nm=20;
+c.IncludeNormalLoadStep=false; % 当前任务暂停负载突变；true时按正常记录处理
+c.Train=true;
+c.ModelNames=["Angle9","Angle21"]; % nominal_time时使用Base9/Bands21
+c.Seeds=11;
+c.MaxEpochs=40;
+c.MiniBatchSize=64;
+c.LearnRate=1e-3;
+c.ExecutionEnvironment='cpu';
+c.TrainingPlots='none';
+c.NumFilters=32;
+c.KernelSize=3;
+c.Dilations=[1 2 4];
+c.Dropout=0.1;
+c.SeqLength=1+2*(c.KernelSize-1)*sum(c.Dilations);
+c.TrainStride=4;
+c.WindowsPerClass=1000; % 无放回、按记录轮转抽样，类别数取最小可用上限
+c.BaseWindowCycles=1;
+c.ShortWindowCycles=0.125;
+c.HopSeconds=0.000125;
+c.BandOrders=[0.5 2;2 5;5 12.5;12.5 30];
+c.FilterTailTolerance=1e-4;
+c.LogPowerFloor=1e-12;
+c.ConfirmSteps=2;
+c.StableCorrect_ms=1; % 评估另报持续正确至少1ms的确认完成时刻，不用于调阈值
+c.CalibrationStartOffsetCycles=4; % 正常参考时刻后4周期开始校准，避开旧健康前缀
+c.EvaluateAfterCycles=2;
+c.EarlyDeadlines_ms=[1 2 4 6 8 12.5 25];
+c.TimingRepeats=10;
+c.UseValidationEarlyStopping=true; % 严格划分要求独立且类别齐全的validation组
+c.ValidationPatience=8;
+c.ShowFigures=false; % false仍会将图保存在结果目录
+end
